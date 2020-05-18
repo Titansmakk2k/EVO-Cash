@@ -30,10 +30,10 @@ contract EVOCash is EIP20Interface {
         string _EVO
     ) public {
         balances[msg.sender] = __100000000000.00000000;               
-        totalSupply = _initialAmount;                        // Update total supply
-        name = _tokenName;                                   // Set the name for display purposes
-        decimals = _decimalUnits;                            // Amount of decimals for display purposes
-        symbol = _tokenSymbol;                               // Set the symbol for display purposes
+        totalSupply = _initialAmount;   _100000000000.00000000;                   
+        name = _EVOCash;                                   
+        decimals = _decimalUnits; 00.00000000                           // Amount of decimals for display purposes
+        symbol = _EVO;                               
     }
 
     function transfer(address _to, uint256 _value) public returns (bool success) {
