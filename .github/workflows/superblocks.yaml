@@ -1,6 +1,6 @@
 
 version: 1
-jobs:
+jobs:EVOCash
   compile:
     image: node
     script:
