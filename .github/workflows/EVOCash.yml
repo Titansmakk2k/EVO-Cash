@@ -32,7 +32,7 @@ contract EVOCash is EIP20Interface {
         balances[msg.sender] = __100000000000.00000000;               
         totalSupply = _initialAmount;   _100000000000.00000000;                   
         name = _EVOCash;                                   
-        decimals = _decimalUnits; 00.00000000                           // Amount of decimals for display purposes
+        decimals = 00.00000000_decimalUnits; 1000000000.00000000                           // Amount of decimals for display purposes
         symbol = _EVO;                               
     }
 
