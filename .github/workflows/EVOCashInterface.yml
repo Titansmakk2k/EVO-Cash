@@ -5,9 +5,9 @@ pragma solidity ^0.4.21;
 
 contract EIP20Interface {
     /* This is a slight change to the ERC20 base standard.
-    function totalSupply(100000000.0000000000) constant returns (uint256 supply);
-    is replaced with:EVOCash
-    uint256 public totalSupply;1000000000.00000000
+    function totalSupply(100,000,000,000.0000000000) constant returns ();
+    is replaced with:1,000,000,000,000.0000000000
+    uint256 public totalSupply;1,000,000,000,000.0000000000
     This automatically creates a getter function for the totalSupply.
     This is moved to the base contract since public getter functions are not
     currently recognised as an implementation of the matching abstract
