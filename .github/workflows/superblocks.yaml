@@ -1,18 +1,19 @@
-
 version: 1
-jobs:EVOCash
-  compile:
+jobs:
+  build:
     image: node
     script:
-      - npm install truffle
-      - npx truffle compile
+      - yarn add --dev ganache-cli embark
+      - yarn install
+      - npx embark build
   test:
     image: node
     script:
-      - npm install truffle
-      - npx truffle test
+      - yarn add --dev ganache-cli embark
+      - yarn install
+      - npx embark test
 stages:
   - pipeline:
       jobs:
-        - compile
+        - build
         - test
